@@ -1,0 +1,189 @@
+/* Enrollment Page */
+
+.enrollment-page {
+  min-height: calc(100vh - 80px);
+  background: #f7f4fb;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.enrollment-container {
+  width: 100%;
+  max-width: 850px;
+  background: #ffffff;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(45, 20, 80, 0.12);
+}
+
+/* Success Icon */
+
+.enrollment-icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #eee7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}
+
+/* Heading */
+
+.enrollment-title {
+  text-align: center;
+  color: #29134f;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.enrollment-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+/* Course heading */
+
+.enrollment-course-title {
+  color: #29134f;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.enrollment-course-text {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Course information */
+
+.enrollment-details {
+  background: #f1ebfb;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+}
+
+.enrollment-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd2ed;
+}
+
+.enrollment-row:last-child {
+  border-bottom: none;
+}
+
+.enrollment-label {
+  color: #666;
+  font-size: 15px;
+}
+
+.enrollment-value {
+  color: #29134f;
+  font-weight: 600;
+}
+
+/* What's Next */
+
+.enrollment-next {
+  margin-bottom: 30px;
+}
+
+.enrollment-next h3 {
+  color: #29134f;
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.enrollment-next p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+
+.enrollment-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.enrollment-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Gold button */
+
+.enrollment-btn-primary {
+  background: #e6a817;
+  color: #29134f;
+}
+
+.enrollment-btn-primary:hover {
+  background: #d99508;
+  transform: translateY(-2px);
+}
+
+/* Purple button */
+
+.enrollment-btn-secondary {
+  background: #29134f;
+  color: white;
+}
+
+.enrollment-btn-secondary:hover {
+  background: #3d1d6b;
+  transform: translateY(-2px);
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .enrollment-page {
+    padding: 30px 15px;
+  }
+
+  .enrollment-container {
+    padding: 30px 20px;
+  }
+
+  .enrollment-title {
+    font-size: 26px;
+  }
+
+  .enrollment-course-title {
+    font-size: 21px;
+  }
+
+  .enrollment-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .enrollment-buttons {
+    flex-direction: column;
+  }
+
+  .enrollment-btn {
+    width: 100%;
+  }
+}

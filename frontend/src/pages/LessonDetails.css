@@ -1,0 +1,210 @@
+
+.lesson-page {
+  min-height: 100vh;
+  background: #f8f5fc;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.lesson-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: transparent;
+  color: #4b2678;
+  border: 1px solid #4b2678;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.back-btn:hover {
+  background: #4b2678;
+  color: white;
+}
+
+.lesson-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.lesson-badge {
+  display: inline-block;
+  background: #f4c542;
+  color: #2b124c;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.lesson-header h1 {
+  color: #2b124c;
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.lesson-header p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.lesson-video {
+  width: 100%;
+  margin: 25px auto;
+  padding: 15px;
+  background: #2b124c;
+  border: 2px solid #f4c542;
+  border-radius: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.lesson-video video {
+  display: block;
+  width: 100%;
+  max-height: 500px;
+  background: #000;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.video-error {
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+  line-height: 1.6;
+}
+
+.video-error-icon {
+  font-size: 40px;
+  color: #f4c542;
+}
+
+.video-error h3 {
+  color: #f4c542;
+}
+
+.video-path {
+  color: #f4c542;
+  overflow-wrap: anywhere;
+}
+
+.lesson-info {
+  background: white;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 12px;
+  border-left: 5px solid #f4c542;
+  box-shadow: 0 4px 15px rgba(43, 18, 76, 0.08);
+}
+
+.lesson-info h2 {
+  color: #2b124c;
+  margin-top: 0;
+}
+
+.lesson-info p {
+  color: #555;
+  line-height: 1.8;
+}
+
+.lesson-tip {
+  background: #f8f2ff;
+  border: 1px solid #e5d6f7;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.lesson-tip strong {
+  color: #4b2678;
+}
+
+.lesson-tip p {
+  margin-bottom: 0;
+}
+
+.lesson-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.lesson-btn {
+  border: none;
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.complete-btn {
+  background: #f4c542;
+  color: #2b124c;
+}
+
+.complete-btn:hover {
+  background: #e4b52c;
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: #4b2678;
+  color: white;
+}
+
+.secondary-btn:hover:not(:disabled) {
+  background: #2b124c;
+  transform: translateY(-2px);
+}
+
+.lesson-btn:disabled {
+  background: #ccc;
+  color: #777;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (max-width: 600px) {
+  .lesson-page {
+    padding: 20px 12px;
+  }
+
+  .lesson-header h1 {
+    font-size: 24px;
+  }
+
+  .lesson-video {
+    padding: 8px;
+  }
+
+  .lesson-video video {
+    max-height: 300px;
+  }
+
+  .lesson-navigation {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .lesson-btn {
+    width: 100%;
+  }
+
+  .lesson-info {
+    padding: 18px;
+  }
+}

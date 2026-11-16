@@ -1,0 +1,1097 @@
+/* ================================
+   STUDY MATERIAL PAGE
+   ================================ */
+
+.study-material-page {
+  min-height: 100vh;
+  background: #f8f7fc;
+  padding-bottom: 60px;
+}
+
+/* Header */
+.material-header {
+  background: linear-gradient(135deg, #3b146f, #6a2c91);
+  color: white;
+  padding: 55px 8%;
+  text-align: center;
+  border-radius: 0 0 35px 35px;
+  box-shadow: 0 8px 25px rgba(59, 20, 111, 0.18);
+}
+
+.material-label {
+  color: #ffd21f;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.material-header h1 {
+  font-size: 42px;
+  margin: 0 0 15px;
+  font-weight: 800;
+}
+
+.material-header > p:last-child {
+  font-size: 17px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Main container */
+.material-container {
+  max-width: 1000px;
+  margin: 45px auto;
+  padding: 0 25px;
+}
+
+/* Main card */
+.material-main-card {
+  background: white;
+  border-radius: 24px;
+  padding: 45px;
+  box-shadow: 0 10px 35px rgba(59, 20, 111, 0.10);
+  border: 1px solid #eee8f7;
+}
+
+/* Large icon */
+.material-icon-large {
+  width: 75px;
+  height: 75px;
+  background: #fff4c7;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.material-main-card h2 {
+  color: #3b146f;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.material-description {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* What you will study */
+.material-main-card h3 {
+  color: #3b146f;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.material-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.material-topic {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 18px;
+  background: #faf8fd;
+  border-radius: 14px;
+  border-left: 4px solid #ffd21f;
+  transition: 0.2s ease;
+}
+
+.material-topic:hover {
+  transform: translateX(5px);
+  background: #f5effb;
+}
+
+.material-topic span {
+  width: 28px;
+  height: 28px;
+  background: #ffd21f;
+  color: #3b146f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.material-topic p {
+  margin: 0;
+  color: #444;
+  font-size: 16px;
+}
+
+/* Practice tip */
+.material-note {
+  background: linear-gradient(135deg, #fff9df, #fff3b8);
+  border-left: 5px solid #ffd21f;
+  padding: 22px 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.material-note h3 {
+  margin: 0 0 8px;
+  color: #3b146f;
+}
+
+.material-note p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.material-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.material-back-button {
+  border: 2px solid #3b146f;
+  background: white;
+  color: #3b146f;
+  padding: 13px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.material-back-button:hover {
+  background: #3b146f;
+  color: white;
+}
+
+/* Not found page */
+.material-not-found {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f7fc;
+}
+
+.material-not-found h2 {
+  color: #3b146f;
+  margin-bottom: 20px;
+}
+
+.material-not-found button {
+  background: #ffd21f;
+  color: #3b146f;
+  border: none;
+  padding: 13px 28px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .material-header {
+    padding: 40px 20px;
+  }
+
+  .material-header h1 {
+    font-size: 30px;
+  }
+
+  .material-container {
+    margin: 25px auto;
+    padding: 0 15px;
+  }
+
+  .material-main-card {
+    padding: 25px;
+  }
+
+  .material-main-card h2 {
+    font-size: 25px;
+  }
+}/* ================================
+   STUDY MATERIAL PAGE
+   ================================ */
+
+.study-material-page {
+  min-height: 100vh;
+  background: #f8f7fc;
+  padding-bottom: 60px;
+}
+
+/* Header */
+.material-header {
+  background: linear-gradient(135deg, #3b146f, #6a2c91);
+  color: white;
+  padding: 55px 8%;
+  text-align: center;
+  border-radius: 0 0 35px 35px;
+  box-shadow: 0 8px 25px rgba(59, 20, 111, 0.18);
+}
+
+.material-label {
+  color: #ffd21f;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.material-header h1 {
+  font-size: 42px;
+  margin: 0 0 15px;
+  font-weight: 800;
+}
+
+.material-header > p:last-child {
+  font-size: 17px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Main container */
+.material-container {
+  max-width: 1000px;
+  margin: 45px auto;
+  padding: 0 25px;
+}
+
+/* Main card */
+.material-main-card {
+  background: white;
+  border-radius: 24px;
+  padding: 45px;
+  box-shadow: 0 10px 35px rgba(59, 20, 111, 0.10);
+  border: 1px solid #eee8f7;
+}
+
+/* Large icon */
+.material-icon-large {
+  width: 75px;
+  height: 75px;
+  background: #fff4c7;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.material-main-card h2 {
+  color: #3b146f;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.material-description {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* What you will study */
+.material-main-card h3 {
+  color: #3b146f;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.material-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.material-topic {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 18px;
+  background: #faf8fd;
+  border-radius: 14px;
+  border-left: 4px solid #ffd21f;
+  transition: 0.2s ease;
+}
+
+.material-topic:hover {
+  transform: translateX(5px);
+  background: #f5effb;
+}
+
+.material-topic span {
+  width: 28px;
+  height: 28px;
+  background: #ffd21f;
+  color: #3b146f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.material-topic p {
+  margin: 0;
+  color: #444;
+  font-size: 16px;
+}
+
+/* Practice tip */
+.material-note {
+  background: linear-gradient(135deg, #fff9df, #fff3b8);
+  border-left: 5px solid #ffd21f;
+  padding: 22px 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.material-note h3 {
+  margin: 0 0 8px;
+  color: #3b146f;
+}
+
+.material-note p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.material-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.material-back-button {
+  border: 2px solid #3b146f;
+  background: white;
+  color: #3b146f;
+  padding: 13px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.material-back-button:hover {
+  background: #3b146f;
+  color: white;
+}
+
+/* Not found page */
+.material-not-found {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f7fc;
+}
+
+.material-not-found h2 {
+  color: #3b146f;
+  margin-bottom: 20px;
+}
+
+.material-not-found button {
+  background: #ffd21f;
+  color: #3b146f;
+  border: none;
+  padding: 13px 28px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .material-header {
+    padding: 40px 20px;
+  }
+
+  .material-header h1 {
+    font-size: 30px;
+  }
+
+  .material-container {
+    margin: 25px auto;
+    padding: 0 15px;
+  }
+
+  .material-main-card {
+    padding: 25px;
+  }
+
+  .material-main-card h2 {
+    font-size: 25px;
+  }
+}
+
+/* ================================
+   STUDY MATERIAL PAGE
+   ================================ */
+
+.study-material-page {
+  min-height: 100vh;
+  background: #f8f7fc;
+  padding-bottom: 60px;
+}
+
+/* Header */
+.material-header {
+  background: linear-gradient(135deg, #3b146f, #6a2c91);
+  color: white;
+  padding: 55px 8%;
+  text-align: center;
+  border-radius: 0 0 35px 35px;
+  box-shadow: 0 8px 25px rgba(59, 20, 111, 0.18);
+}
+
+.material-label {
+  color: #ffd21f;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.material-header h1 {
+  font-size: 42px;
+  margin: 0 0 15px;
+  font-weight: 800;
+}
+
+.material-header > p:last-child {
+  font-size: 17px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Main container */
+.material-container {
+  max-width: 1000px;
+  margin: 45px auto;
+  padding: 0 25px;
+}
+
+/* Main card */
+.material-main-card {
+  background: white;
+  border-radius: 24px;
+  padding: 45px;
+  box-shadow: 0 10px 35px rgba(59, 20, 111, 0.10);
+  border: 1px solid #eee8f7;
+}
+
+/* Large icon */
+.material-icon-large {
+  width: 75px;
+  height: 75px;
+  background: #fff4c7;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.material-main-card h2 {
+  color: #3b146f;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.material-description {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* What you will study */
+.material-main-card h3 {
+  color: #3b146f;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.material-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.material-topic {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 18px;
+  background: #faf8fd;
+  border-radius: 14px;
+  border-left: 4px solid #ffd21f;
+  transition: 0.2s ease;
+}
+
+.material-topic:hover {
+  transform: translateX(5px);
+  background: #f5effb;
+}
+
+.material-topic span {
+  width: 28px;
+  height: 28px;
+  background: #ffd21f;
+  color: #3b146f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.material-topic p {
+  margin: 0;
+  color: #444;
+  font-size: 16px;
+}
+
+/* Practice tip */
+.material-note {
+  background: linear-gradient(135deg, #fff9df, #fff3b8);
+  border-left: 5px solid #ffd21f;
+  padding: 22px 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.material-note h3 {
+  margin: 0 0 8px;
+  color: #3b146f;
+}
+
+.material-note p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.material-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.material-back-button {
+  border: 2px solid #3b146f;
+  background: white;
+  color: #3b146f;
+  padding: 13px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.material-back-button:hover {
+  background: #3b146f;
+  color: white;
+}
+
+/* Not found page */
+.material-not-found {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f7fc;
+}
+
+.material-not-found h2 {
+  color: #3b146f;
+  margin-bottom: 20px;
+}
+
+.material-not-found button {
+  background: #ffd21f;
+  color: #3b146f;
+  border: none;
+  padding: 13px 28px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .material-header {
+    padding: 40px 20px;
+  }
+
+  .material-header h1 {
+    font-size: 30px;
+  }
+
+  .material-container {
+    margin: 25px auto;
+    padding: 0 15px;
+  }
+
+  .material-main-card {
+    padding: 25px;
+  }
+
+  .material-main-card h2 {
+    font-size: 25px;
+  }
+}
+
+
+/* Study Material Buttons */
+
+.material-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+/* Back to Learning Button */
+
+.material-back-button {
+  background-color: #2b124c !important;
+  color: #f4c542 !important;
+  border: 2px solid #2b124c !important;
+  padding: 14px 24px !important;
+  border-radius: 10px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  min-height: 52px;
+  width: auto;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.material-back-button:hover {
+  background-color: #f4c542 !important;
+  color: #2b124c !important;
+  border-color: #f4c542 !important;
+  transform: translateY(-2px);
+}
+
+/* Print / Save as PDF Button */
+
+.material-download-button {
+  background-color: #f4c542 !important;
+  color: #2b124c !important;
+  border: 2px solid #f4c542 !important;
+  padding: 14px 24px !important;
+  border-radius: 10px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  min-height: 52px;
+  width: auto;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.material-download-button:hover {
+  background-color: #2b124c !important;
+  color: #f4c542 !important;
+  border-color: #2b124c !important;
+  transform: translateY(-2px);
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+  .material-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .material-back-button,
+  .material-download-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Hide buttons when printing */
+
+@media print {
+  .material-buttons {
+    display: none !important;
+  }
+}
+
+
+/* =================================
+   STUDY MATERIAL LESSON CONTENT
+================================= */
+
+.study-material-page {
+  padding: 40px 5%;
+  background: #f8f6fc;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.material-header {
+  background: linear-gradient(135deg, #2b124c, #51247a);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #f4c542;
+}
+
+.material-label {
+  color: #f4c542;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.material-header h1 {
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+.material-header h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f4c542;
+}
+
+.material-header p {
+  line-height: 1.7;
+}
+
+.material-content {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  border-left: 5px solid #f4c542;
+  box-shadow: 0 4px 18px rgba(43, 18, 76, 0.06);
+  box-sizing: border-box;
+}
+
+.material-content h2 {
+  color: #2b124c;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.material-content p {
+  color: #444;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.material-topic {
+  margin-bottom: 24px;
+}
+
+.material-topic h3 {
+  color: #51247a;
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.material-topic p {
+  margin-top: 0;
+}
+
+.material-exercise-list {
+  padding-left: 25px;
+}
+
+.material-exercise-list li {
+  padding-left: 6px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.material-practice-tip {
+  background: #fff3b8;
+  border-left: 6px solid #f4c542;
+  border-radius: 18px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.material-practice-tip h2 {
+  color: #2b124c;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.material-practice-tip p {
+  color: #444;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.reflection-question {
+  margin-top: 25px;
+  color: #2b124c;
+  font-size: 16px;
+}
+
+.reflection-line {
+  border-bottom: 1px solid #c9bfd8;
+  height: 35px;
+  margin-top: 8px;
+}
+
+.material-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.material-back-button,
+.material-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.material-back-button {
+  background: #2b124c;
+  color: #f4c542;
+  border: 2px solid #2b124c;
+}
+
+.material-back-button:hover {
+  background: #f4c542;
+  color: #2b124c;
+  border-color: #f4c542;
+  transform: translateY(-2px);
+}
+
+.material-download-button {
+  background: #f4c542;
+  color: #2b124c;
+  border: 2px solid #f4c542;
+}
+
+.material-download-button:hover {
+  background: #2b124c;
+  color: #f4c542;
+  border-color: #2b124c;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .study-material-page {
+    padding: 20px 4%;
+  }
+
+  .material-header {
+    padding: 25px;
+  }
+
+  .material-header h1 {
+    font-size: 26px;
+  }
+
+  .material-content {
+    padding: 22px;
+  }
+
+  .material-content h2 {
+    font-size: 21px;
+  }
+
+  .material-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .material-back-button,
+  .material-download-button {
+    width: 100%;
+  }
+}
+
+/* Print / Save as PDF */
+
+
+/* =====================================
+   FIX STUDY MATERIAL PDF PRINT LAYOUT
+===================================== */
+
+@media print {
+
+  /* Remove browser page margins */
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background: #ffffff !important;
+  }
+
+  /* Hide Navbar and navigation elements */
+  nav,
+  .navbar,
+  .navbar-container,
+  header,
+  footer {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  /* Hide buttons and interactive controls */
+  .material-buttons,
+  .material-back-button,
+  .material-download-button,
+  button,
+  a {
+    display: none !important;
+  }
+
+  /* Reset the main page layout */
+  .study-material-page {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  /* Keep the lesson header in normal document flow */
+  .material-header {
+    position: static !important;
+    width: 100% !important;
+    margin: 0 0 20px 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    background: #ffffff !important;
+    color: #2b124c !important;
+    border: 2px solid #f4c542 !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+
+  .material-header h1,
+  .material-header h2,
+  .material-header p,
+  .material-header .material-label {
+    color: #2b124c !important;
+  }
+
+  /* Display lesson content normally */
+  .material-content,
+  .material-practice-tip {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 0 20px 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    background: #ffffff !important;
+    color: #222222 !important;
+    box-shadow: none !important;
+    transform: none !important;
+    break-inside: auto;
+  }
+
+  .material-topic {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .material-content h2,
+  .material-content h3,
+  .material-practice-tip h2 {
+    color: #2b124c !important;
+  }
+
+  .material-content p,
+  .material-content li,
+  .material-practice-tip p {
+    color: #222222 !important;
+    font-size: 12pt !important;
+    line-height: 1.6 !important;
+  }
+
+  .reflection-question {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .reflection-line {
+    border-bottom: 1px solid #999999 !important;
+  }
+
+  /* Prevent horizontal overflow */
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
+  }
+
+}

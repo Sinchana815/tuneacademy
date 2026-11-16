@@ -1,0 +1,160 @@
+.completion-page {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: linear-gradient(
+    135deg,
+    #f8f4ff,
+    #ffffff
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.completion-card {
+  width: 100%;
+  max-width: 750px;
+  padding: 50px;
+  text-align: center;
+
+  background: white;
+  border-radius: 25px;
+
+  box-shadow:
+    0 15px 45px rgba(60, 20, 90, 0.15);
+}
+
+.success-icon {
+  width: 85px;
+  height: 85px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 45px;
+
+  background: #fff4d6;
+  border-radius: 50%;
+}
+
+.completion-label {
+  color: #8b5aa8;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.completion-card h1 {
+  color: #32104f;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.completion-message {
+  color: #666;
+  font-size: 17px;
+  margin-bottom: 35px;
+}
+
+.course-completed-box {
+  padding: 25px;
+  margin-bottom: 25px;
+
+  background: #f5effb;
+  border-radius: 18px;
+}
+
+.course-completed-box span {
+  color: #9a6bb5;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.course-completed-box h2 {
+  color: #32104f;
+  margin: 12px 0 8px;
+  font-size: 25px;
+}
+
+.course-completed-box p {
+  color: #666;
+  margin: 0;
+}
+
+.certificate-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  text-align: left;
+
+  padding: 22px;
+
+  margin-bottom: 30px;
+
+  border: 1px solid #eadff2;
+  border-radius: 18px;
+
+  background: #fffdf9;
+}
+
+.certificate-icon {
+  font-size: 42px;
+}
+
+.certificate-box h3 {
+  color: #32104f;
+  margin: 0 0 7px;
+}
+
+.certificate-box p {
+  color: #666;
+  margin: 0;
+}
+
+.completion-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.certificate-button,
+.back-learning-button {
+  padding: 14px 25px;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.certificate-button {
+  background: #d99a00;
+  color: white;
+}
+
+.certificate-button:hover {
+  background: #b77f00;
+  transform: translateY(-2px);
+}
+
+.back-learning-button {
+  border: 2px solid #4b176b;
+  color: #4b176b;
+  background: white;
+}
+
+.back-learning-button:hover {
+  background: #4b176b;
+  color: white;
+}
